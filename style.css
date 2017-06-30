@@ -1,7 +1,7 @@
 body {
   background-color: #5594B2;
 }
-nav > a {
+nav > p > a {
   color: #FF8693;
   text-decoration: none;
 }

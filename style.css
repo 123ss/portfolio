@@ -1,7 +1,19 @@
 body {
   background-color: #5594B2;
 }
-nav > p > a {
+nav {
   color: #FF8693;
   text-decoration: none;
+}
+nav > h1 {
+  font-family: "Oswald", "Impact", sans-serif;
+  font-size: 350%;
+}
+nav > p {
+  font-family: "Dosis", "Verdana", sans-serif;
+  font-size: 250%;
+  text-transform: uppercase;
+}
+footer p:last-child {
+  font-family: "Hind", "Verdana", sans-serif;
 }

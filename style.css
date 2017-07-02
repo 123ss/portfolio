@@ -6,24 +6,25 @@ nav {
   position: fixed;
   padding-top: 80px;
   padding-left: 20px;
-  color: #FFFC9F;
 }
 nav > a {
   display: block;
-  color: #FF8693;
   text-align: right;
   text-decoration: none;
 }
 nav > a:first-child {
+  color: #B24C57;
   font-family: "Oswald", "Impact", sans-serif;
   font-size: 70px;
 }
 nav > a + a {
+  color: #FF8693;
   font-family: "Dosis", "Verdana", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
 }
 footer p:last-child {
+  color: #FFFC9F;
   font-family: "Hind", "Verdana", sans-serif;
   font-size: 14px;
   text-align: center;

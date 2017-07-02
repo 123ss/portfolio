@@ -3,6 +3,7 @@ body {
 }
 nav, nav a {
   color: #FF8693;
+  display: block;
   text-decoration: none;
 }
 nav a:first-child {
@@ -11,12 +12,13 @@ nav a:first-child {
 }
 nav a + a {
   font-family: "Dosis", "Verdana", sans-serif;
-  font-size: 25 0%;
+  font-size: 250%;
   text-transform: uppercase;
 }
 footer p:last-child {
   font-family: "Hind", "Verdana", sans-serif;
+  font-size: 80%;
 }
 #main {
-  color: #57A5CC;
+  background-color: #57A5CC;
 }

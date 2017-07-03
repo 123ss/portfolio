@@ -26,8 +26,8 @@ nav > a + a {
   text-transform: uppercase;
 }
 #main {
+  margin-top: 20px;
   margin-left: 305px;
-  padding-top: 20px;
   background-color: #57A5CC;
 }
 footer {

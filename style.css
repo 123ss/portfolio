@@ -3,7 +3,7 @@ body {
   margin: 0px auto;
 }
 nav {
-  width: 200px;
+  width: 180px;
   position: fixed;
 }
 nav > a {
@@ -24,9 +24,9 @@ nav > a + a {
   text-align: right;
   text-transform: uppercase;
 }
-#main {
-}
-footer {
+#main, footer {
+  margin-left: 180px;
+  padding-left: 30px;
 }
 footer p:last-child {
   font-family: "Hind", "Verdana", sans-serif;

@@ -28,6 +28,11 @@ nav > a + a {
 #main, footer {
   width: 720px;
   margin-left: 180px;
+}
+#main {
+  padding: 30px 30px;
+}
+footer {
   padding: 0px 30px;
 }
 footer p:last-child {

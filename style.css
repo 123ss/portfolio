@@ -1,10 +1,9 @@
 body {
+  width: 960px;
   margin: 0px auto;
 }
 nav {
   position: fixed;
-  padding-top: 80px;
-  padding-left: 20px;
 }
 nav > a {
   display: block;
@@ -23,11 +22,8 @@ nav > a + a {
   text-transform: uppercase;
 }
 #main {
-  margin-top: 20px;
-  margin-left: 305px;
 }
 footer {
-  margin-left: 305px;
 }
 footer p:last-child {
   font-family: "Hind", "Verdana", sans-serif;

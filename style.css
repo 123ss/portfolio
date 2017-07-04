@@ -26,6 +26,7 @@ nav > a + a {
   text-transform: uppercase;
 }
 #main, footer {
+  width: 720px;
   margin-left: 180px;
   padding: 0px 30px;
 }

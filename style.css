@@ -1,6 +1,10 @@
 body {
+  background-color: alice blue; /*dfsd*/
   width: 960px;
   margin: 0px auto;
+}
+a {
+  color: blue; /*sdf8/
 }
 nav {
   position: fixed;

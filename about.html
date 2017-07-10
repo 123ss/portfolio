@@ -4,7 +4,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald|Dosis|Hind" rel="stylesheet"> <!--add fonts-->
     <title>About Me</title>
   </head>
-  <body>
+  <body id="body">
     <nav> <!--sidebar/navigation-->
       <a href="">Selena Sui</a>
       <a href="">Home</a>
@@ -17,8 +17,8 @@
     <script> //toggle day and night
       document.getElementById("toggle").onclick = function(){toggle()};
       function toggle(){
-        document.getElementById("toggle").style.backgroundColor = "black";
-        document.getElementsByTagName("P").style.color = "white";
+        document.getElementById("body").style.backgroundColor = "black";
+        document.getElementById("body").style.color = "white";
       }
     </script>
     <div id="main"> <!--main body-->

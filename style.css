@@ -29,6 +29,12 @@ nav > a + a {
   text-align: right;
   text-transform: uppercase;
 }
+#toggle {
+  position: absolute;
+  top: 5px;
+  right: 5px
+  width: 200px;
+}
 #main, footer {
   width: 720px;
   margin-left: 180px;

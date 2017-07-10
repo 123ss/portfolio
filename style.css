@@ -1,10 +1,10 @@
 body {
-  background-color: alice blue; /*dfsd*/
+  background-color: alice blue;
   width: 960px;
   margin: 0px auto;
 }
 a {
-  color: blue; /*sdf8/
+  color: blue;
 }
 nav {
   position: fixed;
@@ -29,12 +29,13 @@ nav > a + a {
   text-align: right;
   text-transform: uppercase;
 }
+/*
 #toggle {
   position: absolute;
   top: 5px;
   right: 5px
   width: 200px;
-}
+}*/
 #main, footer {
   width: 720px;
   margin-left: 180px;

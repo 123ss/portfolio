@@ -14,14 +14,6 @@
     <div id="toggle"> <!--toggle day and night-->
       <p>Day/Night</p>
     </div>
-    <script> //toggle day and night
-      document.getElementById("toggle").onclick = function(){toggle()};
-      function toggle(){
-        document.getElementById("toggle").style.backgroundColor = "black";
-        document.getElementsByTagName("BODY").style.color = "white";
-      }
-
-    </script>
     <div id="main"> <!--main body-->
       <div> <!--short biography-->
         <p>Selena Sui is a rising junior at Mission San Jose High School in Fremont, California. She is currently part of the Girls Who Code Summer Immersion Program at Microsoft.</p>
@@ -58,4 +50,12 @@
       <p>&copy; 2017 Selena Sui. All rights reserved.</p>
     </footer>
   </body>
+
+    <script> //toggle day and night
+      document.getElementById("toggle").onclick = function(){toggle()};
+      function toggle(){
+        document.getElementById("toggle").style.backgroundColor = "black";
+        document.getElementsByTagName("body").style.color = "white";
+      }
+    </script>
 </html>

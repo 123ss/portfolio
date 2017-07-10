@@ -2,19 +2,6 @@
   <head>
     <link rel="stylesheet" href="style.css"> <!--external css-->
     <link href="https://fonts.googleapis.com/css?family=Oswald|Dosis|Hind" rel="stylesheet"> <!--add fonts-->
-    
-    <script> //toggle day and night
-      document.getElementById("toggle").onclick = function() {toggle()};
-      function toggle() {
-        if (document.getElementById("body").style.backgroundColor == "white") {
-          document.getElementById("body").style.backgroundColor = "black";
-          document.getElementById("body").style.color = "white";
-        } else {
-          document.getElementById("body").style.backgroundColor = "white";
-          document.getElementById("body").style.color = "black";
-        }
-      }
-    </script>
     <title>About Me</title>
   </head>
   <body id="body">
@@ -27,6 +14,18 @@
     <div id="toggle"> <!--toggle day and night-->
       <p>Day/Night</p>
     </div>
+    <script> //toggle day and night
+      document.getElementById("toggle").onclick = function() {toggle()};
+      function toggle() {
+        if (document.getElementById("body").style.backgroundColor == "white") {
+          document.getElementById("body").style.backgroundColor = "black";
+          document.getElementById("body").style.color = "white";
+        } else {
+          document.getElementById("body").style.backgroundColor = "white";
+          document.getElementById("body").style.color = "black";
+        }
+      }
+    </script>
     <div id="main"> <!--main body-->
       <div> <!--short biography-->
         <p>Selena Sui is a rising junior at Mission San Jose High School in Fremont, California. She is currently part of the Girls Who Code Summer Immersion Program at Microsoft.</p>

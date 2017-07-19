@@ -1,15 +1,13 @@
 body {
-  background-color: alice blue;
   width: 960px;
-  margin: 0px auto;
-}
-a {
-  color: blue;
 }
 nav {
   position: fixed;
-  width: 180px;
-  padding-top: 40px;
+  width: 250px;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: darkgrey;
 }
 nav > a {
   display: block;
@@ -37,7 +35,7 @@ nav > a + a {
 }
 #main, footer {
   width: 720px;
-  margin-left: 180px;
+  margin-left: 270px;
 }
 #main {
   padding: 30px 30px;
